@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title></title>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    .main_font{
+      font-size: 14px;
+    }
+    .img_height{
+        width: 28px;
+        height: 37px;
+    }
+    .green_Circle{
+      width: 65px;
+      height: 65px;
+      padding:32px 0 0 0;
+    }
+
+    .footer_icon_text{
+        font-size: 14px;
+      }
+    .reset_password_font{
+      font-size: 24px;
+    }
+    .reset_password_padding{
+      padding: 0 92px;
+    }
+    .button_font{
+      width:180px; height:44px;
+    }
+    @media only screen and (max-width: 380px){
+      .img_height{
+        width: 15px;
+        height: auto;
+      }
+      .footer_icon_text{
+        font-size: 10px;
+      }
+      .main_font{
+        font-size: 12px;
+      }
+      .green_Circle{
+      width: 35px;
+      height: 35px;
+      padding:10px 0 0 0;
+      }
+
+      .reset_password_font{
+        font-size: 16px;
+      }
+      .reset_password_padding{
+      padding: 0 20px;
+      height: 10px;
+    }
+      .button_font{
+      width:160px; height:35px;
+    }
+
+    }
+</style>
+</head>
+<body>
+  <center>
+    <table
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      border="0"
+      style="max-width: 600px; background-color: #f5f5f5; border: 1px solid #e5e5e5;"
+    >
+      <tbody>
+        <tr>
+          <td>
+            <table cellpadding="0" border="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td
+                    style="width:118px; height:38px; padding: 16px 16px 16px 32px;"
+                  >
+                    <span>
+                      <img
+                        src="https://i.imgur.com/OqH44Hv.png"
+                        title="Myadvo"
+                      />
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              cellpadding="0"
+              border="0"
+              cellspacing="0"
+              width="100%"
+              style="border-radius:4px;padding: 0 32px 32px 32px;"
+            >
+              <tbody>
+                <tr>
+                  <td>
+                    <table
+                      cellpadding="0"
+                      border="0"
+                      cellspacing="0"
+                      width="100%"
+                      style="background-color: #ffffff;"
+                    >
+                      <tr>
+                        <td
+                          style="vertical-align: middle;text-align: center;"
+                        >
+                          <img
+                          class="green_Circle"
+                          src="https://i.imgur.com/ZwSh5js.png"
+                          />
+                        </td>
+                      </tr>
+                    </table>
+
+                    <table
+                      border="0"
+                      width="100%"
+                      cellpadding="0"
+                      cellspacing="0"
+                      style="background-color: #ffffff;"
+                    >
+                      <tr>
+                        <td>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="reset_password_padding">
+
+                          <tr>
+                            <td>
+                                <p
+                                  class="reset_password_font"
+                                  style="opacity:0.65;font-family:'OpenSans',sans-serif; text-align: center; font-weight: bold; font-stretch: normal; font-style: normal;line-height: 1.38;letter-spacing: normal;color: #2b2d3c;"
+                                >
+                                  Reset Password
+                                </p>
+                            </td>
+                          </tr>
+
+                        </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table cellpadding="0"cellspacing="0" border="0" width="100%" style="padding: 0 24px;">
+                            <tr>
+                              <td class="main_font" style="font-family: 'OpenSans'; font-weight: normal; font-style: normal; font-stretch: normal;line-height: 1.36;letter-spacing: normal; text-align: left; color: #2b2d3c;">
+                                <p class="main_font" style="font-family: 'OpenSans',sans-serif;color: #2b2d3c;">
+                                  Hi {{USER_NAME}},
+                                </p>
+
+                                <p class="main_font" style="font-family: 'OpenSans',sans-serif;color: #2b2d3c;">
+                                  You're receiving this e-mail because you or someone else has requested a password for your user account. It can be safely ignored if you did not request a password reset. Click the link below to reset your password.
+                                </p>
+
+                                <p style="padding:18px 0 18px 0;">
+                                  <button class="button_font" style="border-radius:4px; background-color:#15b4a3; color:#ffffff;border-width:0;outline:0;" onclick=" window.open('https://www.myadvo.in/auth/password-reset','_blank')">Reset Password</button>
+                                </p>
+
+                                <p class="main_font" style="font-family: 'OpenSans',sans-serif;color: #2b2d3c;">
+                                  In case you forgot, your username is {{USER_NAME}}.
+                                </p>
+
+                                <p class="main_font" style="font-family: 'OpenSans',sans-serif;color: #2b2d3c;">
+                                  Thank you!
+                                  <br>
+                                  Team Myadvo
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Icons -->
+            <table class="services"
+            style="border-spacing:0px;padding-top:7px;width:100%; background-color: #ffffff;"
+            border="0" width="0%" cellspacing="0px" cellpadding="0">
+              <tbody>
+                <tr style="height:23px; border-style:none">
+                  <td style="width:100%;height:23px;text-align:center">
+                      <table style="width:100%;border-collapse:collapse;border-style:hidden;" border="0"
+                      cellpadding="10">
+                        <tbody>
+
+                          <tr style="height:23px">
+
+                            <td style="width:33.33%;height:23px">
+                              <table style="width: 100%">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:50%;height:23px;text-align:right">
+                                      <img class="img_height" src="https://i.imgur.com/mvt0BgZ.png" alt=""
+                                        >
+                                    </td>
+                                    <td style="width:500%;height:23px;text-align: left">
+
+                                      <span
+                                        class = "footer_icon_text"
+                                          style="font-family: 'Open Sans', sans-serif;color: #2B2D3C;  padding: 4px; font-weight: bold;line-height: 1.36;letter-spacing: normal;text-align: left;">
+                                          <b>20,000+</b>
+                                      </span>
+                                      <br>
+                                      <span
+                                        class = "footer_icon_text"
+                                        style="font-family: 'Open Sans', sans-serif;color: #2B2D3C;  padding: 4px;  font-weight: normal;line-height: 1.36;letter-spacing: normal;text-align: left;">
+                                        Cases
+                                      </span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+
+                            <td style="width:33.33%;height:23px">
+                              <table style="width: 100%">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:50%;height:23px;text-align:right">
+                                      <img class="img_height" src="https://i.imgur.com/Kqywom1.png" alt="">
+                                    </td>
+                                    <td style="width:500%;height:23px;text-align: left">
+                                      <span
+                                        class = "footer_icon_text"
+                                        style="font-family: 'Open Sans', sans-serif;color: #2B2D3C;  padding: 4px;  font-weight: bold;line-height: 1.36;letter-spacing: normal;text-align: left;">
+                                        <b>500+</b>
+                                      </span>
+                                      <br>
+                                      <span
+                                        class = "footer_icon_text"
+                                        style="font-family: 'Open Sans', sans-serif;color: #2B2D3C;  padding: 4px; font-weight: normal;line-height: 1.36;letter-spacing: normal;text-align: left;">
+                                        Cities
+                                      </span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+
+                            <td style="width:33.33%;height:23px">
+                              <table style="width: 100%">
+                                <tbody>
+                                  <tr>
+                                    <td style="width:50%;height:23px;text-align:right">
+                                      <img class="img_height" src="https://i.imgur.com/o9jc6sm.png" alt="">
+                                    </td>
+                                    <td style="width:500%;height:23px;text-align: left">
+
+                                      <span
+                                      class = "footer_icon_text"
+                                      style="font-family: 'Open Sans', sans-serif;color: #2B2D3C;  padding: 4px; font-weight: bold;line-height: 1.36;letter-spacing: normal;text-align: left;">
+                                        <b>10,000+</b>
+                                      </span>
+                                      <br>
+                                      <span
+                                        class = "footer_icon_text"
+                                        style="font-family: 'Open Sans', sans-serif;color: #2B2D3C;  padding: 4px; font-weight: normal;line-height: 1.36;letter-spacing: normal;text-align: left;">
+                                        Lawyers
+                                      </span>
+
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                      <!--social media icons-->
+                      <table style="border-spacing:0px; padding:0px;width:100%;background-color: #2b2d3c" border="0"
+                      width="100%" cellspacing="0px" cellpadding="0">
+                        <tbody>
+
+                          <tr style="height:23px; border-style:none;">
+                            <td style="width:100%;height:23px;padding: 34px 0 0 58px;" colspan="4">
+                              <table
+                              width="100%"
+                              style="height:37px;width:100%;border-collapse:collapse;border-style:hidden;max-width: 285px;"
+                              border="0">
+                              <tbody>
+                                <tr>
+                                  <td style="width:40%;text-align:center; padding: 12px 8px;">
+                                    <p style="font-family:'OpenSans';font-size:11px;line-height:1.38;text-align:left;color:#ffffff;font-weight:normal;font-stretch:normal;font-style:normal:letter-spacing:normal">
+                                      Connect with us:
+                                    </p>
+                                  </td>
+                                  <td
+                                    style="width:20%;text-align:center; padding: 12px 8px; color:  #2B2D3C">
+                                    <a href="https://www.facebook.com/MyAdvo.in/"
+                                      target="_blank"
+                                      style=" -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"
+                                      rel="noopener">
+                                      <img style="display:block;margin-left:auto;margin-right:auto"
+                                        src="https://i.imgur.com/M1fpbX3.png"
+                                        height="24px">
+                                    </a>
+                                  </td>
+                                  <td
+                                    style="width:20%; text-align:center; padding: 12px 8px; color:  #2B2D3C">
+                                    <a href="https://www.linkedin.com/company/myadvo/"
+                                      target="_blank"
+                                      style=" -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"
+                                      rel="noopener">
+                                      <img style="display:block;margin-left:auto;margin-right:auto"
+                                        src="https://i.imgur.com/9sLLDwV.png"
+                                        height="24px">
+                                    </a>
+                                  </td>
+                                  <td
+                                    style="width:20%; text-align:center; padding: 12px 8px;color:  #2B2D3C">
+                                    <a href="https://twitter.com/Myadvotweets"
+                                      target="_blank"
+                                      style=" -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"
+                                      rel="noopener">
+                                      <img style="display:block;margin-left:auto;margin-right:auto"
+                                        src="https://i.imgur.com/q3tzN63.png"
+                                        height="24px">
+                                    </a>
+                                  </td>
+                                </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 0 0 0 60px;">
+                              <table width="100%" border="0" cellspacing="0"cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <img src="https://i.imgur.com/Vx99oyY.png" alt="ongoing-png" style="width: 14.2px; height:14.2px; opacity: 1;" />
+                                    </td>
+                                    <td>
+                                      <p style="font-family:'OpenSans';font-size:11px; font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.36;letter-spacing: normal; text-align: left;color:#ffffff; padding: 0 0 0 28.8px;">
+                                      +91-98117-82573
+                                      </p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <img src="https://i.imgur.com/msO4hoH.png" alt="ongoing-png" style="width: 18.2px; height:12.2px; opacity: 1;" />
+                                    </td>
+                                    <td>
+                                      <p style="font-family:'OpenSans';font-size:11px; font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.36;letter-spacing: normal; text-align: left;color:#ffffff;padding: 0 0 0 28.8px;">
+                                      support@myadvo.in
+                                      </p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <img src="https://i.imgur.com/oGjEa29.png" alt="ongoing-png" style="width: 7.8px; height:13.1px; opacity: 1;" />
+                                    </td>
